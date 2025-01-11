@@ -1,3 +1,5 @@
+    $ CARGO_BUILD_JOBS=$(nproc) cargo install --path . --bin lapce --profile dev --locked
+
 <h1 align="center">
   <a href="https://lapce.dev" target="_blank">
   <img src="extra/images/logo.png" width=200 height=200/><br>
