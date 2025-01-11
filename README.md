@@ -1,4 +1,5 @@
     $ CARGO_BUILD_JOBS=$(nproc) cargo install --path . --bin lapce --profile dev --locked
+    $ tail -f ~/.local/share/lapce-debug/logs/*.log
 
 <h1 align="center">
   <a href="https://lapce.dev" target="_blank">
