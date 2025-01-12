@@ -1,5 +1,6 @@
     $ CARGO_BUILD_JOBS=$(nproc) cargo install --path . --bin lapce --profile dev --locked
     $ tail -f ~/.local/share/lapce-debug/logs/*.log
+    # the compiling cost about 15 minutes, the compiling with debug log cost about 40 minutes, it's horrible while the lite-xl compiling costs only 20 seconds
 
 <h1 align="center">
   <a href="https://lapce.dev" target="_blank">
